@@ -1,0 +1,161 @@
+{
+  "anchors": {
+    "best_correction_recovers_pct": [
+      "puts back {}%"
+    ],
+    "best_fill_where_inversion_holds_pct": [
+      "as high as {}% fill"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "fixture_days": [
+      "{} days"
+    ],
+    "fixture_items": [
+      "{} items"
+    ],
+    "gap_closed_at_lowest_cover_pct": [
+      "closes {}% of it"
+    ],
+    "gap_closed_pct": [
+      "closes {}% of the gap"
+    ],
+    "headline_fill_rate_pct": [
+      "at a fill rate of\n{}%",
+      "every fill rate up to {}%",
+      "up to as high as {}% fill",
+      "fill rate of {}% and"
+    ],
+    "headline_gap_uncorrected": [
+      "pessimistic by {} points"
+    ],
+    "headline_gap_uplifted": [
+      "and by {} points"
+    ],
+    "headline_unrecorded_pct": [
+      "{}% of demand was never recorded"
+    ],
+    "lowest_fill_rate_pct": [
+      "rate of {}% up to"
+    ],
+    "lowest_fill_where_selections_agree_pct": [
+      "agree again at {}% fill",
+      "a fill rate of about {}% on"
+    ],
+    "python_min_version": [],
+    "raw_sales_share_pct": [
+      "records {}% of the demand",
+      "against the raw history's {}%"
+    ],
+    "tests_total": [
+      "{} tests"
+    ],
+    "uncorrected_demand_wmape": [
+      "demand scores the uncorrected forecaster at {}"
+    ],
+    "uncorrected_sales_wmape": [
+      "Sales scores it at {}"
+    ],
+    "uplifted_demand_wmape": [
+      "and the corrected one at {}"
+    ],
+    "uplifted_sales_wmape": [
+      "against {} for the corrected one"
+    ]
+  },
+  "badge_only": [
+    "python_min_version"
+  ],
+  "checked_documents": [
+    "README.md",
+    "docs/adr/ADR-001-keep-sales-and-demand-apart-in-the-type-system.md",
+    "docs/adr/ADR-002-report-the-correction-as-an-assumption-not-an-estimator.md",
+    "docs/adr/ADR-003-what-a-generated-sales-history-cannot-establish.md",
+    "src/cdb/__init__.py",
+    "src/cdb/backtest.py",
+    "src/cdb/censor.py",
+    "src/cdb/cli.py",
+    "src/cdb/correct.py",
+    "src/cdb/errors.py",
+    "src/cdb/forecast.py",
+    "src/cdb/generator.py",
+    "src/cdb/report.py",
+    "experiments/exp01_selection_inversion.py",
+    "experiments/exp02_score_gap.py",
+    "experiments/exp03_what_the_corrections_recover.py"
+  ],
+  "formats": {
+    "best_correction_recovers_pct": "{:.1f}",
+    "best_fill_where_inversion_holds_pct": "{:.1f}",
+    "coverage_line_pct": "{:.2f}",
+    "fixture_days": "{:d}",
+    "fixture_items": "{:d}",
+    "gap_closed_at_lowest_cover_pct": "{:.0f}",
+    "gap_closed_pct": "{:.0f}",
+    "headline_fill_rate_pct": "{:.1f}",
+    "headline_gap_uncorrected": "{:.1f}",
+    "headline_gap_uplifted": "{:.1f}",
+    "headline_unrecorded_pct": "{:.1f}",
+    "lowest_fill_rate_pct": "{:.1f}",
+    "lowest_fill_where_selections_agree_pct": "{:.1f}",
+    "python_min_version": "{}",
+    "raw_sales_share_pct": "{:.1f}",
+    "tests_total": "{:d}",
+    "uncorrected_demand_wmape": "{:.3f}",
+    "uncorrected_sales_wmape": "{:.3f}",
+    "uplifted_demand_wmape": "{:.3f}",
+    "uplifted_sales_wmape": "{:.3f}"
+  },
+  "formatted": {
+    "best_correction_recovers_pct": "95.5",
+    "best_fill_where_inversion_holds_pct": "92.8",
+    "coverage_line_pct": "100.00",
+    "fixture_days": "364",
+    "fixture_items": "30",
+    "gap_closed_at_lowest_cover_pct": "71",
+    "gap_closed_pct": "37",
+    "headline_fill_rate_pct": "92.8",
+    "headline_gap_uncorrected": "3.6",
+    "headline_gap_uplifted": "4.6",
+    "headline_unrecorded_pct": "7.2",
+    "lowest_fill_rate_pct": "53.3",
+    "lowest_fill_where_selections_agree_pct": "97.5",
+    "python_min_version": "3.11",
+    "raw_sales_share_pct": "92.8",
+    "tests_total": "95",
+    "uncorrected_demand_wmape": "0.283",
+    "uncorrected_sales_wmape": "0.319",
+    "uplifted_demand_wmape": "0.280",
+    "uplifted_sales_wmape": "0.326"
+  },
+  "generated_blocks": {
+    "README.md": [
+      "selection-table.md",
+      "recovery-table.md"
+    ]
+  },
+  "metrics": {
+    "best_correction_recovers_pct": 95.47850902578567,
+    "best_fill_where_inversion_holds_pct": 92.82753677759497,
+    "coverage_line_pct": 100.0,
+    "fixture_days": 364,
+    "fixture_items": 30,
+    "gap_closed_at_lowest_cover_pct": 71.24946777085742,
+    "gap_closed_pct": 37.37981584500219,
+    "headline_fill_rate_pct": 92.82753677759497,
+    "headline_gap_uncorrected": 3.5936975126991766,
+    "headline_gap_uplifted": 4.59825662028699,
+    "headline_unrecorded_pct": 7.220500921911569,
+    "lowest_fill_rate_pct": 53.288355101602555,
+    "lowest_fill_where_selections_agree_pct": 97.52404172082048,
+    "python_min_version": 3.11,
+    "raw_sales_share_pct": 92.77949907808843,
+    "tests_total": 95,
+    "uncorrected_demand_wmape": 0.2833274694236592,
+    "uncorrected_sales_wmape": 0.31926444455065095,
+    "uplifted_demand_wmape": 0.2801314709729143,
+    "uplifted_sales_wmape": 0.3261140371757843
+  },
+  "note": "every value here is read from a run: the test suite, the experiments, the committed fixture, or the project's own configuration. No figure is transcribed by hand"
+}
