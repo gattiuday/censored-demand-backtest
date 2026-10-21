@@ -1,0 +1,162 @@
+{
+  "drop_equals_uplift_in_total": true,
+  "gap_closed_falls_as_censoring_gets_rarer": true,
+  "headline_best_method": "drop_censored",
+  "headline_best_recovered": 0.9547850902578566,
+  "headline_fill_rate": 0.9282753677759498,
+  "headline_gap_closed_share": 0.3737981584500219,
+  "headline_raw_sales_share": 0.9277949907808843,
+  "items_per_panel": 30,
+  "note": "dropping the censored days and filling them with the mean of the uncensored ones recover exactly the same total, because filling n days with the clean mean and then averaging over all the days is the clean mean. They are the same estimator of the total and differ only in what they hand a forecaster, which is why exp01 distinguishes them and this does not. Scaling by availability does worse than either on this fixture, which has no intraday stock curve for it to use; ADR-003 is why a method this fixture cannot supply the input for is graded anyway",
+  "question": "how much of the censored demand does each correction put back",
+  "replications": 12,
+  "series": [
+    {
+      "best_method": "drop_censored",
+      "cover_days": 4.0,
+      "fill_rate_mean": 0.5328835510160256,
+      "gap_closed_share": 0.7124946777085742,
+      "raw_sales_share_mean": 0.5325232447660619,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.8655979448227167,
+          "sd": 0.004761310563658103
+        },
+        "scale_by_availability": {
+          "mean": 0.5862361990885164,
+          "sd": 0.003940895123190305
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.8655979448227167,
+          "sd": 0.004761310563658106
+        }
+      }
+    },
+    {
+      "best_method": "drop_censored",
+      "cover_days": 5.0,
+      "fill_rate_mean": 0.6360268736752718,
+      "gap_closed_share": 0.6661410367191112,
+      "raw_sales_share_mean": 0.6357125658383116,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.8783793748945237,
+          "sd": 0.003956305375339561
+        },
+        "scale_by_availability": {
+          "mean": 0.6832663556689019,
+          "sd": 0.003942093094744453
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.8783793748945237,
+          "sd": 0.003956305375339558
+        }
+      }
+    },
+    {
+      "best_method": "drop_censored",
+      "cover_days": 6.0,
+      "fill_rate_mean": 0.7203800302594617,
+      "gap_closed_share": 0.6199555320377058,
+      "raw_sales_share_mean": 0.7202689229071327,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.8936897516337218,
+          "sd": 0.004387377955603167
+        },
+        "scale_by_availability": {
+          "mean": 0.7618936892705919,
+          "sd": 0.004409611951896425
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.8936897516337218,
+          "sd": 0.004387377955603161
+        }
+      }
+    },
+    {
+      "best_method": "drop_censored",
+      "cover_days": 8.0,
+      "fill_rate_mean": 0.846227798871474,
+      "gap_closed_share": 0.5118254670389457,
+      "raw_sales_share_mean": 0.8459162740470734,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.924780249046031,
+          "sd": 0.0033983658199308736
+        },
+        "scale_by_availability": {
+          "mean": 0.8712683430024525,
+          "sd": 0.004775276532375659
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.924780249046031,
+          "sd": 0.00339836581993087
+        }
+      }
+    },
+    {
+      "best_method": "drop_censored",
+      "cover_days": 10.0,
+      "fill_rate_mean": 0.9282753677759498,
+      "gap_closed_share": 0.3737981584500219,
+      "raw_sales_share_mean": 0.9277949907808843,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.9547850902578566,
+          "sd": 0.002696942110429085
+        },
+        "scale_by_availability": {
+          "mean": 0.9403491567062,
+          "sd": 0.004771607577383933
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.9547850902578566,
+          "sd": 0.0026969421104290686
+        }
+      }
+    },
+    {
+      "best_method": "scale_by_availability",
+      "cover_days": 12.0,
+      "fill_rate_mean": 0.9752404172082048,
+      "gap_closed_share": 0.1768823689839265,
+      "raw_sales_share_mean": 0.9750281596665031,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.9789084457267805,
+          "sd": 0.0027652609794442122
+        },
+        "scale_by_availability": {
+          "mean": 0.9794452379425804,
+          "sd": 0.0031782554988412136
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.9789084457267805,
+          "sd": 0.0027652609794441892
+        }
+      }
+    },
+    {
+      "best_method": "scale_by_availability",
+      "cover_days": 16.0,
+      "fill_rate_mean": 0.9991950217641387,
+      "gap_closed_share": 0.15170598271986394,
+      "raw_sales_share_mean": 0.9992396239287121,
+      "recovered": {
+        "drop_censored": {
+          "mean": 0.9988738497653454,
+          "sd": 0.0006298462426410101
+        },
+        "scale_by_availability": {
+          "mean": 0.9993549775278435,
+          "sd": 0.0004148106280357605
+        },
+        "uplift_to_clean_mean": {
+          "mean": 0.9988738497653454,
+          "sd": 0.0006298462426409872
+        }
+      }
+    }
+  ]
+}

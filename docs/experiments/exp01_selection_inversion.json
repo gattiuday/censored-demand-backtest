@@ -1,0 +1,215 @@
+{
+  "best_fill_rate_where_selection_inverts": 0.9282753677759498,
+  "items_per_panel": 30,
+  "levels_measured": 7,
+  "levels_where_selection_inverts": 5,
+  "lowest_fill_rate_where_selections_agree": 0.9752404172082048,
+  "note": "the sales based backtest selects the uncorrected forecaster at every level of cover, because the uncorrected forecaster is predicting sales and that is what it is being scored against. The demand based backtest selects the corrected one wherever there is censoring to correct. A team with only a sales history runs the first of these and cannot run the second, so the backtest rejects the correction precisely when the correction is needed",
+  "question": "does a backtest on sales select the same forecaster as one on demand",
+  "replications": 12,
+  "series": [
+    {
+      "cover_days": 4.0,
+      "fill_rate_mean": 0.5328835510160256,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.48750833942654714,
+            "sd": 0.003633878903129844
+          },
+          "sales": {
+            "mean": 0.7749107047586715,
+            "sd": 0.006688842155100667
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.2841740877932596,
+            "sd": 0.007805036851956867
+          },
+          "sales": {
+            "mean": 0.9880790479872653,
+            "sd": 0.015653656563237403
+          }
+        }
+      },
+      "selected_on_demand": "uplifted",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 0.0
+    },
+    {
+      "cover_days": 5.0,
+      "fill_rate_mean": 0.6360268736752718,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.4067668305231476,
+            "sd": 0.004754035842097105
+          },
+          "sales": {
+            "mean": 0.6122109226878296,
+            "sd": 0.007652404582255453
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.282009187945872,
+            "sd": 0.00765014992635688
+          },
+          "sales": {
+            "mean": 0.7037875499182514,
+            "sd": 0.012784262603202059
+          }
+        }
+      },
+      "selected_on_demand": "uplifted",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 0.0
+    },
+    {
+      "cover_days": 6.0,
+      "fill_rate_mean": 0.7203800302594617,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.3535811732656769,
+            "sd": 0.00557576146446106
+          },
+          "sales": {
+            "mean": 0.5013899185078741,
+            "sd": 0.007635065767094128
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.28073021963113004,
+            "sd": 0.007587513187590164
+          },
+          "sales": {
+            "mean": 0.5474924579096904,
+            "sd": 0.010655272263607726
+          }
+        }
+      },
+      "selected_on_demand": "uplifted",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 0.0
+    },
+    {
+      "cover_days": 8.0,
+      "fill_rate_mean": 0.846227798871474,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.3013551147806692,
+            "sd": 0.0066785671248052745
+          },
+          "sales": {
+            "mean": 0.37772630269618923,
+            "sd": 0.008649443773664584
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.2795870333927635,
+            "sd": 0.007614030581472304
+          },
+          "sales": {
+            "mean": 0.39468515878723803,
+            "sd": 0.010104354834366934
+          }
+        }
+      },
+      "selected_on_demand": "uplifted",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 0.0
+    },
+    {
+      "cover_days": 10.0,
+      "fill_rate_mean": 0.9282753677759498,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.2833274694236592,
+            "sd": 0.007336428351487445
+          },
+          "sales": {
+            "mean": 0.31926444455065095,
+            "sd": 0.008595781508665476
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.2801314709729143,
+            "sd": 0.007837345255973864
+          },
+          "sales": {
+            "mean": 0.3261140371757843,
+            "sd": 0.009187866126435199
+          }
+        }
+      },
+      "selected_on_demand": "uplifted",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 0.0
+    },
+    {
+      "cover_days": 12.0,
+      "fill_rate_mean": 0.9752404172082048,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.28036162783564983,
+            "sd": 0.007779408614175661
+          },
+          "sales": {
+            "mean": 0.29192747749761266,
+            "sd": 0.008566553782598059
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.2810442644564068,
+            "sd": 0.008020470167001413
+          },
+          "sales": {
+            "mean": 0.29412277610038656,
+            "sd": 0.00882280968562811
+          }
+        }
+      },
+      "selected_on_demand": "uncorrected",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 1.0
+    },
+    {
+      "cover_days": 16.0,
+      "fill_rate_mean": 0.9991950217641387,
+      "scores": {
+        "uncorrected": {
+          "demand": {
+            "mean": 0.2826837135983196,
+            "sd": 0.008175387565095043
+          },
+          "sales": {
+            "mean": 0.28296273901467545,
+            "sd": 0.008205766398337208
+          }
+        },
+        "uplifted": {
+          "demand": {
+            "mean": 0.282731657602964,
+            "sd": 0.008192217696406212
+          },
+          "sales": {
+            "mean": 0.28300932808994517,
+            "sd": 0.008226185888617676
+          }
+        }
+      },
+      "selected_on_demand": "uncorrected",
+      "selected_on_sales": "uncorrected",
+      "selections_agree_share": 1.0
+    }
+  ]
+}

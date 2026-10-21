@@ -1,0 +1,117 @@
+{
+  "headline_fill_rate": 0.9282753677759498,
+  "headline_score_gap_uncorrected": -3.5936975126991766,
+  "headline_score_gap_uplifted": -4.59825662028699,
+  "headline_unrecorded_share": 0.07220500921911568,
+  "items_per_panel": 30,
+  "note": "the sign is the finding, and it is the opposite of what this experiment was named for. A sales based backtest reports a larger error than the forecast makes against demand, not a smaller one, because the denominator shrinks faster than the numerator grows. So the bias does not flatter the forecast and a team reading it is not being told things are better than they are. They are being told the wrong forecaster is better, which is worse, because a pessimistic number invites no correction and a wrong ranking changes what gets shipped",
+  "question": "by how much does a sales based score differ from a demand based one",
+  "replications": 12,
+  "series": [
+    {
+      "cover_days": 4.0,
+      "fill_rate_mean": 0.5328835510160256,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -28.74023653321245,
+          "sd": 0.421059085439311
+        },
+        "uplifted": {
+          "mean": -70.39049601940057,
+          "sd": 1.1791278090818063
+        }
+      },
+      "unrecorded_demand_share_mean": 0.4674767552339381
+    },
+    {
+      "cover_days": 5.0,
+      "fill_rate_mean": 0.6360268736752718,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -20.54440921646821,
+          "sd": 0.4344214740525078
+        },
+        "uplifted": {
+          "mean": -42.17783619723794,
+          "sd": 0.8720237921278116
+        }
+      },
+      "unrecorded_demand_share_mean": 0.3642874341616884
+    },
+    {
+      "cover_days": 6.0,
+      "fill_rate_mean": 0.7203800302594617,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -14.780874524219707,
+          "sd": 0.35837342463356375
+        },
+        "uplifted": {
+          "mean": -26.67622382785603,
+          "sd": 0.5731059170588532
+        }
+      },
+      "unrecorded_demand_share_mean": 0.27973107709286743
+    },
+    {
+      "cover_days": 8.0,
+      "fill_rate_mean": 0.846227798871474,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -7.6371187915520045,
+          "sd": 0.2981710037127547
+        },
+        "uplifted": {
+          "mean": -11.509812539447454,
+          "sd": 0.5323736471449493
+        }
+      },
+      "unrecorded_demand_share_mean": 0.15408372595292655
+    },
+    {
+      "cover_days": 10.0,
+      "fill_rate_mean": 0.9282753677759498,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -3.5936975126991766,
+          "sd": 0.268995295406581
+        },
+        "uplifted": {
+          "mean": -4.59825662028699,
+          "sd": 0.40204795306141
+        }
+      },
+      "unrecorded_demand_share_mean": 0.07220500921911568
+    },
+    {
+      "cover_days": 12.0,
+      "fill_rate_mean": 0.9752404172082048,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -1.1565849661962766,
+          "sd": 0.19272534127704333
+        },
+        "uplifted": {
+          "mean": -1.3078511643979795,
+          "sd": 0.22852152716069551
+        }
+      },
+      "unrecorded_demand_share_mean": 0.02497184033349691
+    },
+    {
+      "cover_days": 16.0,
+      "fill_rate_mean": 0.9991950217641387,
+      "score_gap_points": {
+        "uncorrected": {
+          "mean": -0.02790254163558752,
+          "sd": 0.024166056957343245
+        },
+        "uplifted": {
+          "mean": -0.02776704869811898,
+          "sd": 0.02470168066336988
+        }
+      },
+      "unrecorded_demand_share_mean": 0.0007603760712879048
+    }
+  ]
+}
